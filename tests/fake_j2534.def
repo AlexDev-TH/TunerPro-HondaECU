@@ -1,0 +1,11 @@
+LIBRARY fake_j2534
+EXPORTS
+PassThruOpen
+PassThruClose
+PassThruConnect
+PassThruDisconnect
+PassThruReadMsgs
+PassThruWriteMsgs
+PassThruStartMsgFilter
+PassThruIoctl
+PassThruGetLastError

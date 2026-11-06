@@ -1,0 +1,6 @@
+* text=auto
+*.bat text eol=crlf
+*.cs text eol=crlf
+*.manifest text eol=crlf
+*.def text eol=crlf
+*.png binary
