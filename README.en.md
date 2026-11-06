@@ -271,7 +271,7 @@ Still stuck? Open a report under [Issues](https://github.com/AlexDev-TH/TunerPro
 
 **A ROM write that stops partway leaves the ECU unable to start until a write succeeds.** The battery must be full. Do not turn the key off or unplug the cable during a write. Always keep your original file. This software comes with no warranty. Use it at your own risk.
 
-**Test status of version 1.0.0**: the automated test suite passes for both FTDI and J2534 against a simulated ECU, and the window was run inside TunerPro RT v6 version 6.0.419 on Windows 11. There is no list yet of bike models and cables confirmed on real hardware. This applies most to writing the ROM and to waking the K-Line through J2534, which is new compared with the original. Try it on a spare ECU on a bench before using it on a bike.
+**Test status of version 1.0.0**: the developer has tested it on real hardware and it works. The automated test suite also passes for both FTDI and J2534 against a simulated ECU. It runs in TunerPro RT v6 version 6.0.419 on Windows 11. ECU models may answer differently, so if yours has not been tried yet, test on a spare ECU on a bench first if you can.
 
 ## What differs from the original HondaECU
 
